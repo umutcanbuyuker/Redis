@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yDBqcvVz/1wrGvjOgvk74yl+xj/sONVGqScyXOoNJ/tbC9FgBmxzl6MIL6Jy1V13YGK/QDa/JqogRE8loxz+Nw==",
+  "dgSpecHash": "7v2So/Mb1JrhS0OLbRUWLjja2xS7xPFYpctPL1hkEgPJX7WZ6ma/pp49/kGJKRzjydmZfSirUxxz56KZMRy4pA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Huawei\\Desktop\\RedisInMemory\\IDistributedCacheRedisApp.Web\\IDistributedCacheRedisApp.Web.csproj",
+  "projectFilePath": "C:\\Users\\Huawei\\Desktop\\.NetCore-Redis\\Redis\\IDistributedCacheRedisApp.Web\\IDistributedCacheRedisApp.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.extensions.caching.stackexchangeredis\\7.0.2\\microsoft.extensions.caching.stackexchangeredis.7.0.2.nupkg.sha512",

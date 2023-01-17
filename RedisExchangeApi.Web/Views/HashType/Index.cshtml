@@ -1,0 +1,19 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Dictionary<string,string>
+@{
+}
+@*<a asp-action="DeleteFirstItem">Baştan Sil</a>*@
+<a asp-action="DeleteFirstItem">Sondan Sil</a>
+<form method="post" asp-action="Add" enctype="application/x-www-form-urlencoded">
+    <input type="text" name="name" />
+    <input type="text" name="val" />
+
+    <button type="submit">Kaydet</button>
+</form>
+
+@foreach (var item in Model)
+{
+    <h2>@item.Key -> @item.Value <a asp-controller="HashType" asp-action="DeleteItem" asp-route-name="@item.Key">sil</a></h2>
+}
